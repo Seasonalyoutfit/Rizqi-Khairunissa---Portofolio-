@@ -11,218 +11,111 @@
             font-family: 'Plus Jakarta Sans', sans-serif;
             background-color: #fbf8f2;
             color: #181614;
+            transition: background-color 0.5s ease;
         }
         h1, h2, h3, .serif-font {
             font-family: 'Playfair Display', serif;
         }
     </style>
 </head>
-<body class="selection:bg-[#181614] selection:text-[#fbf8f2]">
+<body id="site-body" class="selection:bg-[#181614] selection:text-[#fbf8f2]">
 
     <!-- Navbar -->
     <header class="sticky top-0 z-50 bg-[#fbf8f2]/90 backdrop-blur-md border-b border-[#e6decb] px-6 py-4">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
-            <span class="text-2xl font-bold tracking-tight serif-font">SeasonalyOutfit</span>
-            <a href="#contact" class="bg-[#181614] text-[#fbf8f2] text-xs font-semibold tracking-wider px-5 py-2.5 rounded-full hover:bg-[#332f2c] transition-all">
-                GET IN TOUCH
+            <span class="text-xl font-bold tracking-tight serif-font">SeasonalyOutfit</span>
+            <a href="#contact" class="bg-[#181614] text-[#fbf8f2] text-xs font-semibold tracking-wider px-4 py-2 rounded-full hover:bg-[#332f2c] transition-all">
+                LET'S CONNECT
             </a>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="max-w-5xl mx-auto px-6 py-20 md:py-32 text-center">
-        <p class="text-xs uppercase tracking-[0.25em] text-[#7a7267] font-semibold mb-4">Digital Portfolio & Brand Story</p>
-        <h1 class="text-4xl md:text-6xl font-bold serif-font mb-6 tracking-tight">SeasonalyOutfit</h1>
-        <p class="text-lg md:text-xl italic text-[#7a7267] serif-font max-w-2xl mx-auto mb-8">
-            "Curating global style across 4 seasons (Autumn, Winter, Summer, Spring)"
+    <section class="max-w-4xl mx-auto px-6 py-16 text-center">
+        <div class="inline-block border border-[#e6decb] bg-[#f5efdc] px-4 py-1.5 rounded-full text-xs uppercase tracking-[0.2em] text-[#7a7267] font-semibold mb-6">
+            ✨ Digital Portfolio & Interactive Brand Story
+        </div>
+        <h1 class="text-3xl md:text-5xl font-bold serif-font mb-6 tracking-tight leading-snug">
+            Curating Global Style Across 4 Seasons
+        </h1>
+        <p class="text-sm md:text-base text-[#4a443e] max-w-2xl mx-auto leading-relaxed mb-10">
+            Platform kurasi mode dan estetika visual di balik layar oleh Rizqi Khairunissa. Membantu audiens menemukan identitas gaya melalui kombinasi <em>quiet luxury</em>, perencanaan berbasis AI, dan kurasi presisi sejak September 2026.
         </p>
-        <p class="text-base text-[#4a443e] max-w-xl mx-auto leading-relaxed mb-12">
-            Platform kurasi mode dan estetika visual di balik layar. Membantu audiens menemukan identitas gaya melalui rekomendasi produk penuh inspirasi sejak September 2026.
-        </p>
-        <div class="flex flex-wrap justify-center gap-4">
-            <a href="#analytics" class="bg-[#181614] text-[#fbf8f2] text-sm font-medium px-8 py-3.5 rounded-full hover:bg-[#332f2c] transition-all">
-                Explore Insights
-            </a>
-            <a href="#gallery" class="border border-[#181614] text-[#181614] text-sm font-medium px-8 py-3.5 rounded-full hover:bg-[#181614] hover:text-[#fbf8f2] transition-all">
-                View Gallery
-            </a>
-        </div>
-    </section>
 
-    <!-- About Section -->
-    <section class="border-t border-[#e6decb] py-20 px-6">
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
-            <div class="md:col-span-7 space-y-6">
-                <h2 class="text-3xl md:text-4xl font-bold serif-font">Rizqi Khairunissa</h2>
-                <div class="space-y-4 text-[#4a443e] leading-relaxed text-sm md:text-base">
-                    <p>
-                        Halo! Saya perintis <strong>SeasonalyOutfit</strong> yang baru berjalan sejak awal September 2026. Kecintaan saya pada dunia mode mendorong saya membangun ruang kurasi ini untuk belajar dan membantu orang lain menemukan gaya terbaik mereka.
-                    </p>
-                    <p>
-                        Saya berfokus sebagai kreator di balik layar—bukan model—yang mengkurasi produk dan menyusun rekomendasi visual yang estetik. Dalam prosesnya, saya memanfaatkan teknologi AI sebagai asisten produktivitas sembari terus belajar menguasai <em>tools</em> kreatif secara otodidak.
-                    </p>
-                    <p>
-                        Dengan latar belakang lulusan <strong>SMK Infokom Bogor (Rekayasa Perangkat Lunak, 2018)</strong> dan impian untuk <em>traveling</em> memperluas wawasan mode global, saya berkomitmen untuk terus bertumbuh di industri kreatif ini.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Quick Profile Card -->
-            <div class="md:col-span-5 bg-[#f3ede1] border border-[#e6decb] p-8 rounded-2xl space-y-6 shadow-sm">
-                <h3 class="text-xl font-bold serif-font pb-3 border-b border-[#e6decb]">Quick Profile</h3>
-                <ul class="space-y-4 text-sm text-[#4a443e]">
-                    <li><strong class="text-[#181614]">Domisili:</strong> Laladon, Bogor, Jawa Barat</li>
-                    <li><strong class="text-[#181614]">Pendidikan:</strong> SMK Infokom Bogor (RPL, 2018)</li>
-                    <li><strong class="text-[#181614]">Fokus Kreatif:</strong> Product Curation & Style Recommendations</li>
-                    <li><strong class="text-[#181614]">Workflow:</strong> AI-Assisted Creative Planning & Curation</li>
-                    <li><strong class="text-[#181614]">Email:</strong> rizkykhairunissa@gmail.com</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Social Media Analytics Section -->
-    <section id="analytics" class="border-t border-[#e6decb] py-20 px-6 bg-[#f5efdc]/50">
-        <div class="max-w-6xl mx-auto text-center mb-16">
-            <span class="text-xs uppercase tracking-[0.25em] text-[#7a7267] font-semibold">Performance Metrics</span>
-            <h2 class="text-3xl md:text-4xl font-bold serif-font mt-2 mb-3">Social Media Analytics</h2>
-            <p class="text-[#7a7267] text-sm md:text-base">Bukti nyata performa organik lintas platform yang dibangun dalam kurun waktu 2 bulan.</p>
-        </div>
-
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Threads Card -->
-            <div class="bg-[#f3ede1] border border-[#e6decb] p-8 rounded-2xl flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
-                <div>
-                    <div class="flex justify-between items-center mb-6">
-                        <h3 class="text-xl font-bold serif-font">Threads</h3>
-                        <span class="bg-[#181614] text-[#fbf8f2] text-[10px] font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Top Reach</span>
-                    </div>
-                    <div class="text-4xl font-bold serif-font text-[#181614] mb-1">110K+</div>
-                    <p class="text-xs text-[#7a7267] uppercase tracking-wider font-medium mb-6">Total Views</p>
-                </div>
-                <div class="pt-4 border-t border-[#e6decb] text-xs text-[#4a443e] flex justify-between">
-                    <span>85K+ Viewers</span>
-                    <span class="font-semibold text-[#181614]">+77 Net Followers</span>
-                </div>
-            </div>
-
-            <!-- Pinterest Card -->
-            <div class="bg-[#f3ede1] border border-[#e6decb] p-8 rounded-2xl flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
-                <div>
-                    <div class="flex justify-between items-center mb-6">
-                        <h3 class="text-xl font-bold serif-font">Pinterest</h3>
-                        <span class="bg-[#181614] text-[#fbf8f2] text-[10px] font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Visual Board</span>
-                    </div>
-                    <div class="text-4xl font-bold serif-font text-[#181614] mb-1">84K+</div>
-                    <p class="text-xs text-[#7a7267] uppercase tracking-wider font-medium mb-6">Monthly Impressions</p>
-                </div>
-                <div class="pt-4 border-t border-[#e6decb] text-xs text-[#4a443e] flex justify-between">
-                    <span>3.7K Engagements</span>
-                    <span class="font-semibold text-[#181614]">660+ Saves</span>
-                </div>
-            </div>
-
-            <!-- Instagram Card -->
-            <div class="bg-[#f3ede1] border border-[#e6decb] p-8 rounded-2xl flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
-                <div>
-                    <div class="flex justify-between items-center mb-6">
-                        <h3 class="text-xl font-bold serif-font">Instagram</h3>
-                        <span class="bg-[#181614] text-[#fbf8f2] text-[10px] font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Engagement</span>
-                    </div>
-                    <div class="text-4xl font-bold serif-font text-[#181614] mb-1">1,045</div>
-                    <p class="text-xs text-[#7a7267] uppercase tracking-wider font-medium mb-6">Total Views</p>
-                </div>
-                <div class="pt-4 border-t border-[#e6decb] text-xs text-[#4a443e] flex justify-between">
-                    <span>445 Stories Views</span>
-                    <span class="font-semibold text-[#181614]">441 Reels Views</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Visual Curation Gallery Section -->
-    <section id="gallery" class="border-t border-[#181614] bg-[#181614] text-[#fbf8f2] py-20 px-6">
-        <div class="max-w-6xl mx-auto text-center mb-16">
-            <span class="text-xs uppercase tracking-[0.25em] text-[#b3a896] font-semibold">Visual Curation</span>
-            <h2 class="text-3xl md:text-4xl font-bold serif-font mt-2 mb-3">Seasonaly Curation Gallery</h2>
-            <p class="text-[#b3a896] text-sm md:text-base">Eksplorasi estetik 4 musim (Autumn, Winter, Summer, Spring) dan kurasi produk.</p>
-        </div>
-
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Gallery Item 1 -->
-            <div class="bg-[#24211e] border border-[#38332e] rounded-2xl overflow-hidden shadow-lg group">
-                <div class="h-64 bg-[#2f2a26] relative overflow-hidden flex items-center justify-center p-4">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#181614] via-transparent to-transparent z-10"></div>
-                    <div class="grid grid-cols-2 gap-2 w-full h-full opacity-80 group-hover:scale-105 transition-all duration-500">
-                        <div class="bg-[#3d3631] rounded-lg flex items-center justify-center text-xs text-[#d1c7bc] font-serif italic p-2 text-center">Autumn Layers</div>
-                        <div class="bg-[#3d3631] rounded-lg flex items-center justify-center text-xs text-[#d1c7bc] font-serif italic p-2 text-center">Warm Tones</div>
-                    </div>
-                </div>
-                <div class="p-6">
-                    <span class="bg-[#38332e] text-[#fbf8f2] text-[10px] font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Autumn / Fall Edition</span>
-                    <h3 class="text-xl font-bold serif-font mt-3 mb-2">Warm Tones & Layering</h3>
-                    <p class="text-xs text-[#b3a896] leading-relaxed">Kurasi busana hangat dan palet warna bumi yang mencetak 15.3K views di Threads.</p>
-                </div>
-            </div>
-
-            <!-- Gallery Item 2 -->
-            <div class="bg-[#24211e] border border-[#38332e] rounded-2xl overflow-hidden shadow-lg group">
-                <div class="h-64 bg-[#2f2a26] relative overflow-hidden flex items-center justify-center p-4">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#181614] via-transparent to-transparent z-10"></div>
-                    <div class="grid grid-cols-2 gap-2 w-full h-full opacity-80 group-hover:scale-105 transition-all duration-500">
-                        <div class="bg-[#3d3631] rounded-lg flex items-center justify-center text-xs text-[#d1c7bc] font-serif italic p-2 text-center">Global Style</div>
-                        <div class="bg-[#3d3631] rounded-lg flex items-center justify-center text-xs text-[#d1c7bc] font-serif italic p-2 text-center">Pin Boards</div>
-                    </div>
-                </div>
-                <div class="p-6">
-                    <span class="bg-[#38332e] text-[#fbf8f2] text-[10px] font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Pinterest Boards</span>
-                    <h3 class="text-xl font-bold serif-font mt-3 mb-2">Global Style 4 Seasons</h3>
-                    <p class="text-xs text-[#b3a896] leading-relaxed">Penyusunan pin estetik dengan 84K+ impresi bulanan dan 660+ saves aktif.</p>
-                </div>
-            </div>
-
-            <!-- Gallery Item 3 -->
-            <div class="bg-[#24211e] border border-[#38332e] rounded-2xl overflow-hidden shadow-lg group">
-                <div class="h-64 bg-[#2f2a26] relative overflow-hidden flex items-center justify-center p-4">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#181614] via-transparent to-transparent z-10"></div>
-                    <div class="grid grid-cols-2 gap-2 w-full h-full opacity-80 group-hover:scale-105 transition-all duration-500">
-                        <div class="bg-[#3d3631] rounded-lg flex items-center justify-center text-xs text-[#d1c7bc] font-serif italic p-2 text-center">Reels & Stories</div>
-                        <div class="bg-[#3d3631] rounded-lg flex items-center justify-center text-xs text-[#d1c7bc] font-serif italic p-2 text-center">Behind Scenes</div>
-                    </div>
-                </div>
-                <div class="p-6">
-                    <span class="bg-[#38332e] text-[#fbf8f2] text-[10px] font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Instagram & Threads</span>
-                    <h3 class="text-xl font-bold serif-font mt-3 mb-2">Behind The Scenes Curation</h3>
-                    <p class="text-xs text-[#b3a896] leading-relaxed">Rekomendasi produk harian dan interaksi konsisten bersama target audiens.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 px-6 text-center">
-        <div class="max-w-3xl mx-auto space-y-6">
-            <span class="text-xs uppercase tracking-[0.25em] text-[#7a7267] font-semibold">Let's Collaborate</span>
-            <h2 class="text-3xl md:text-5xl font-bold serif-font">Ready to Join ecinos.id Team</h2>
-            <p class="text-[#4a443e] text-base leading-relaxed max-w-xl mx-auto">
-                Saya sangat antusias untuk membawa semangat belajar, selera visual, dan dedikasi saya ke dalam tim kreatif ecinos.id. Mari terhubung!
+        <!-- Season Atmosphere Switcher Box -->
+        <div class="bg-[#f3ede1] border border-[#e6decb] p-6 rounded-2xl max-w-xl mx-auto shadow-sm mb-12">
+            <p class="text-xs uppercase tracking-wider font-semibold text-[#7a7267] mb-4">
+                Eksplorasi Palet Estetika Musim (Klik untuk mengubah atmosphere):
             </p>
-            <div class="pt-6 flex flex-wrap justify-center gap-4">
-                <a href="mailto:rizkykhairunissa@gmail.com" class="bg-[#181614] text-[#fbf8f2] text-sm font-medium px-8 py-3.5 rounded-full hover:bg-[#332f2c] transition-all">
-                    rizkykhairunissa@gmail.com
-                </a>
-                <a href="https://instagram.com/seasonalyoutfit" target="_blank" class="border border-[#181614] text-[#181614] text-sm font-medium px-8 py-3.5 rounded-full hover:bg-[#181614] hover:text-[#fbf8f2] transition-all">
-                    Instagram @seasonalyoutfit
-                </a>
+            <div class="flex flex-wrap justify-center gap-2">
+                <button onclick="setTheme('autumn')" id="btn-autumn" class="px-4 py-2 rounded-full text-xs font-semibold transition-all bg-[#181614] text-[#fbf8f2]">
+                    🍂 Autumn / Fall
+                </button>
+                <button onclick="setTheme('winter')" id="btn-winter" class="px-4 py-2 rounded-full text-xs font-semibold transition-all bg-[#e6decb] text-[#181614] border border-[#d4c8b0]">
+                    ❄️ Winter Clean
+                </button>
+                <button onclick="setTheme('summer')" id="btn-summer" class="px-4 py-2 rounded-full text-xs font-semibold transition-all bg-[#e6decb] text-[#181614] border border-[#d4c8b0]">
+                    ☀️ Summer Minimalist
+                </button>
+                <button onclick="setTheme('spring')" id="btn-spring" class="px-4 py-2 rounded-full text-xs font-semibold transition-all bg-[#e6decb] text-[#181614] border border-[#d4c8b0]">
+                    🌸 Spring Pastel
+                </button>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="border-t border-[#e6decb] py-8 text-center text-xs text-[#7a7267]">
-        <p>&copy; 2026 SeasonalyOutfit &bull; Rizqi Khairunissa. Built with quiet luxury aesthetics.</p>
-    </footer>
+    <!-- Social Media Metrics -->
+    <section class="max-w-5xl mx-auto px-6 py-12 border-t border-[#e6decb]">
+        <div class="text-center mb-10">
+            <span class="text-xs uppercase tracking-[0.2em] text-[#7a7267] font-semibold">Top Visual Performer</span>
+            <h2 class="text-2xl font-bold serif-font mt-1">Organic Milestones (2 Months)</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-[#f3ede1] border border-[#e6decb] p-6 rounded-xl">
+                <span class="text-xs font-semibold text-[#7a7267] uppercase">Threads</span>
+                <div class="text-3xl font-bold serif-font mt-1">110K+ Views</div>
+                <p class="text-xs text-[#4a443e] mt-2">85K+ Viewers | +77 Net Followers</p>
+            </div>
+            <div class="bg-[#f3ede1] border border-[#e6decb] p-6 rounded-xl">
+                <span class="text-xs font-semibold text-[#7a7267] uppercase">Pinterest</span>
+                <div class="text-3xl font-bold serif-font mt-1">84K+ Impressions</div>
+                <p class="text-xs text-[#4a443e] mt-2">3.7K Engagements | 660+ Saves</p>
+            </div>
+            <div class="bg-[#f3ede1] border border-[#e6decb] p-6 rounded-xl">
+                <span class="text-xs font-semibold text-[#7a7267] uppercase">Instagram</span>
+                <div class="text-3xl font-bold serif-font mt-1">1,045 Views</div>
+                <p class="text-xs text-[#4a443e] mt-2">445 Stories | 441 Reels Views</p>
+            </div>
+        </div>
+    </section>
 
+    <!-- Contact Footer -->
+    <section id="contact" class="border-t border-[#e6decb] py-16 px-6 text-center">
+        <h2 class="text-2xl font-bold serif-font mb-3">Ready to Join ecinos.id Team</h2>
+        <p class="text-sm text-[#4a443e] mb-6">Mari berkolaborasi membawa kurasi estetik terbaik bersama tim kreatif ecinos.id.</p>
+        <a href="mailto:rizkykhairunissa@gmail.com" class="bg-[#181614] text-[#fbf8f2] text-xs font-semibold tracking-wider px-6 py-3 rounded-full inline-block">
+            rizkykhairunissa@gmail.com
+        </a>
+    </section>
+
+    <script>
+        function setTheme(season) {
+            const body = document.getElementById('site-body');
+            const btns = ['autumn', 'winter', 'summer', 'spring'];
+            
+            btns.forEach(b => {
+                const btn = document.getElementById('btn-' + b);
+                btn.className = "px-4 py-2 rounded-full text-xs font-semibold transition-all bg-[#e6decb] text-[#181614] border border-[#d4c8b0]";
+            });
+            
+            const activeBtn = document.getElementById('btn-' + season);
+            activeBtn.className = "px-4 py-2 rounded-full text-xs font-semibold transition-all bg-[#181614] text-[#fbf8f2]";
+
+            if(season === 'autumn') body.style.backgroundColor = '#fbf8f2';
+            if(season === 'winter') body.style.backgroundColor = '#f4f6f8';
+            if(season === 'summer') body.style.backgroundColor = '#faf6ed';
+            if(season === 'spring') body.style.backgroundColor = '#fbf2f4';
+        }
+    </script>
 </body>
-              </html>
-              
+</html>
